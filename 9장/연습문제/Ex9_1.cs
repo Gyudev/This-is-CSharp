@@ -16,9 +16,7 @@ namespace Ex9_1
 	{
 		static void Main(string[] args)
 		{
-			NameCrad myCard = new NameCrad();
-			myCard.Age = 26;
-			myCard.Name = "유병규";
+			NameCrad myCard = new NameCrad() { Age = 26, Name = "유병규" };
 
 			Console.WriteLine($"나이 : {myCard.Age}");
 			Console.WriteLine($"이름 : {myCard.Name}");
